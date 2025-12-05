@@ -1,0 +1,16 @@
+
+{
+  "name": "node-docker-demo",
+  "version": "1.0.0",
+  "description": "Simple Node.js app built and run with Docker in Jenkins",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
