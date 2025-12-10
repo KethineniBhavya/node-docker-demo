@@ -2,7 +2,7 @@ pipeline {
     agent any
  
     environment {
-        EMAIL_RECIPIENTS = 'kethineni.bhavya@capgemini.com' // comma-separated
+        EMAIL_RECIPIENTS = 'bhavyakethineni@gmail.com' // comma-separated
     }
  
     stages {
@@ -67,3 +67,4 @@ Details: ${env.BUILD_URL}
         }
     }
 }
+
